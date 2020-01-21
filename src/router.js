@@ -5,6 +5,7 @@ import cross from "./cross.vue"
 import array from "./array.vue"
 import ifcheck from "./ifcheck.vue"
 import addtogether from "./addtogether.vue"
+import ifcheckall from "./ifcheckall.vue"
 
 Vue.use(VueRouter)
 export default new VueRouter({
@@ -29,6 +30,10 @@ export default new VueRouter({
                     path:"addtogether",
                     name:"addtogether",
                     component: addtogether
+                },{
+                    path:"ifcheckall",
+                    name:"ifcheckall",
+                    component: ifcheckall
                 }
             ]
         }
